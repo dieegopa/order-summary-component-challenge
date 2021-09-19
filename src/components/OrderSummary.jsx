@@ -24,7 +24,7 @@ const OrderSummary = () => {
         </article>
         <button
           type="button"
-          className="w-full block boton py-3 px-5 rounded-lg text-white text-sm mb-5"
+          className="w-full block boton py-3 px-5 rounded-lg text-white text-sm mb-5 font-bold"
         >
           Procced to Payment
         </button>
