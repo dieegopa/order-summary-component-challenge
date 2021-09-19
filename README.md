@@ -1,4 +1,5 @@
 # Getting Started with Create React App
+Order Summary Component Challenge from Frontend Mentro made with React and Tailwind Css.
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
