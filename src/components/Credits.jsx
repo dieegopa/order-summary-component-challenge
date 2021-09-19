@@ -9,8 +9,12 @@ const Credits = () => {
           Frontend Mentor
         </a>
       </p>
+
       <p className="text-center text-xs mt-2 credits">
         Coded by <a href="https://diegopa.com">Diego Padilla</a>
+      </p>
+      <p className="text-center text-xs mt-2 credits">
+        Made with React and Tailwind CSS
       </p>
     </>
   );
