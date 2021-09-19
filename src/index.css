@@ -1,0 +1,91 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --paleblue: hsl(225, 100%, 94%);
+  --brigthblue: hsl(245, 75%, 52%);
+  --verypaleblue: hsl(225, 100%, 98%);
+  --desaturedblue: hsl(224, 23%, 55%);
+  --darkblue: hsl(223, 47%, 23%);
+}
+
+body {
+  font-family: "Red Hat Display", sans-serif;
+  background-color: var(--paleblue);
+  background-image: url(./assets/pattern-background-mobile.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+
+@media (min-width: 768px) {
+  body {
+    background-color: var(--paleblue);
+    background-image: url(./assets/pattern-background-desktop.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+}
+
+p {
+  font-size: 16px;
+  color: var(--desaturedblue);
+}
+
+.contenedor {
+  width: 1200px;
+  max-width: 95%;
+}
+
+h1,
+h2 {
+  color: var(--darkblue);
+  font-weight: 900;
+}
+
+.plan {
+  background-color: var(--verypaleblue);
+}
+
+.link {
+  text-decoration: underline;
+  color:var(--brigthblue);
+  font-size: 15px;
+  font-weight: bold;
+  transition: all .3s ease-in-out;
+}
+
+.link:hover{
+  color: #766cf1;
+  text-decoration: none;
+}
+
+.boton {
+  background-color: var(--brigthblue);
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  transition: all .3s ease-in-out;
+}
+
+.boton:hover {
+  background-color: #766cf1;
+}
+
+.cancel { 
+  color: var(--desaturedblue);
+  transition: all .3s ease-in-out;
+  font-weight: bold;
+}
+
+.cancel:hover{
+  color: var(--darkblue);
+}
+
+.credits a{
+  color: var(--darkblue);
+  transition: all .3s ease-in-out;
+}
+
+.credits a:hover{
+  color: #766cf1;
+}
